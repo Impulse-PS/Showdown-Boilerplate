@@ -4,7 +4,7 @@
 exports.port = process.env.PORT || 8080;
 
 exports.serverid = 'impulse';
-exports.servertoken = 'jH7O+8jrZlrz';
+exports.servertoken = 'gWi8L2Sh55uw';
 
 // proxyip - proxy IPs with trusted X-Forwarded-For headers
 //   This can be either false (meaning not to trust any proxies) or an array
