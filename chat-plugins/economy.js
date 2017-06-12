@@ -76,7 +76,7 @@ function shopDisplay() {
 		if (!Shop[i]) continue;
 		output += '<tr><td style="border: 2px solid #000000; width: 20%; text-align: center"><button class="button" name="send" value="/Shop buy ' + Shop[i].id + '">' + Shop[i].name + '</button></td><td style="border: 2px solid #000000; width: 70%; text-align: center">' + Shop[i].desc + '</td><td style="border: 2px solid #000000; width: 10%; text-align: center">' + Shop[i].price + '</td></tr>';
 	}
-	output += '1,1,1</table></div>';
+	output += '</table></div>';
 	return output;
 }
 
